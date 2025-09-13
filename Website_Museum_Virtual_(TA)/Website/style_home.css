@@ -1,0 +1,146 @@
+/* navbar responsive */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+@media (max-width: 768px) {
+    .topnav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0 !important;
+        display: none;
+    }
+    .nav-links a {
+        margin: 10px 0 0 0 !important;
+        width: 100%;
+    }
+    #nav-toggle {
+        display: block;
+    }
+}
+@media (min-width: 769px) {
+    .nav-links {
+        display: flex !important;
+    }
+    #nav-toggle {
+        display: none !important;
+    }
+} 
+
+/* konten kategori */
+.category1 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/gambar_perang-50.png'); 
+  height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten1 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.category2 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/patung_pahlawan-18.png'); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten2 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.category3 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/gambar_peninggalan-26.png'); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten3 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.category4 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/gambar_daerah-42.png'); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten4 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.category5 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/gambar_desa-10.png'); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten5 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.category6 {
+  flex: 1; 
+  background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/gambar_kuis-34.png'); 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  text-align: center; 
+  padding: 10px;
+}
+.konten6 {
+  background: #FFFFFF; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+  border-radius: 5px; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  margin-top: 10px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_home.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="topnav" style="background: #027B7B; box-shadow: 0px 4px 4px rgba(0,0,0,0.25); height: 55px; padding: 0 20px; display: flex; align-items: center; flex-wrap: nowrap; border-top-left-radius: 5px; border-top-right-radius: 5px; position: sticky; top: 0; z-index: 1000;">
+        <img src="/Website_Museum_Virtual_(TA)/Image/figma_home_image/Logo.png" alt="logo" style="height: 40px; margin-left: -10px;">
+        <button id="nav-toggle" style="background: none; border: none; color: white; font-size: 28px; margin-left: auto; display: none; cursor: pointer;">&#9776;</button>
+        <div class="nav-links" style="display: flex; align-items: center; margin-left: auto;">
+            <a href="home.html" style="color: white; text-decoration: none; margin-left: 20px; font-size: small;">Beranda</a>
+            <a href="feedback.html" style="color: white; text-decoration: none; margin-left: 20px; font-size: small;">Umpan Balik</a>
+            <a href="about.html" style="color: white; text-decoration: none; margin-left: 20px; font-size: small;">Tentang Kami</a>
+        </div>
+    </nav>
+    
+<!-- Konten halaman utama -->
+    <!-- Selamat Datang -->
+    <div class="content" style="background-image: url('/Website_Museum_Virtual_(TA)/Image/figma_home_image/node-58.png'); max-width: 100%; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; height: 150px; background-size: cover; background-position: center;">
+        <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+            <img src="/Website_Museum_Virtual_(TA)/Image/figma_home_image/Selamat Datang.png" alt="Selamat Datang" style="height: 80px; padding-top: 20px;">
+        </div></div>
+    </div>
+
+    <!-- Kategori -->
+     <!-- Kategori 1, 2, 3 -->
+    <div class="categories_atas" style="display: flex; justify-content: space-between; margin-top: 20px; gap: 180px; height: 210px; width: 100%;">
+        <div class="category1">
+            <h2 style="color: white; margin-top: 70px;">Peperangan</h2>
+            <button class="konten1" onclick="location.href='war.html'">Jelajahi</button>
+        </div>
+
+        <div class="category2">
+            <h2 style="color: white; margin-top: 70px;">Pahlawan</h2>
+            <button class="konten2" onclick="location.href='pahlawan.html'">Jelajahi</button>
+        </div>
+
+        <div class="category3">
+            <h2 style="color: white; margin-top: 70px;">Peninggalan Daerah</h2>
+            <button class="konten3" onclick="location.href='Peninggalan.html'">Jelajahi</button>
+        </div>
+    </div>
+
+     <!-- Kategori 4, 5, 6 -->
+    <div class="categories_bawah" style="display: flex; justify-content: space-between; margin-top: 50px; gap: 180px; height: 210px; width: 100%;"> 
+        <div class="category4">
+            <h2 style="color: white; margin-top: 70px;">Daerah</h2>
+            <button class="konten4" onclick="location.href='daerah.html'">Jelajahi</button>
+        </div>
+
+        <div class="category5">
+            <h2 style="color: white; margin-top: 45px;">10 Kota Besar di Indonesia</h2>
+            <button class="konten5" onclick="location.href='kota.html'">Jelajahi</button>
+        </div>
+
+        <div class="category6">
+            <h2 style="color: white; margin-top: 70px;">Kuis</h2>
+            <button class="konten6" onclick="location.href='kuis.html'">Jelajahi</button>
+        </div>
+    </div>
+
+    <footer style="background: #027B7B; box-shadow: 0px 4px 4px rgba(0,0,0,0.25); height: 40px; margin-top: 25px; display: flex; justify-content: center; align-items: center; border-radius: 5px;">
+        <p style="color: white; font-size: small;">&copy; 2025 Museum Virtual Indonesia</p>
+</body>
+</html>
